@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "fabtools",
+	"version": "${version}",
+	"name": "Fabric Tools",
+	"description": "A serverside tool development mod",
+	"authors": [
+		"ZestyBlaze"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": "",
+		"issues": ""
+	},
+	"license": "GPL 3.0",
+	"icon": "assets/fab-tools/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.zestyblaze.fabtools.FabTools"
+		],
+		"fabric-datagen": [
+			"dev.zestyblaze.fabtools.data.FabToolsDataGenerator"
+		]
+	},
+	"mixins": [
+		"fab-tools.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

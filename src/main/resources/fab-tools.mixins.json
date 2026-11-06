@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "dev.zestyblaze.fabtools.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BucketItemAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
